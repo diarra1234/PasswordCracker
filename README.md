@@ -159,6 +159,7 @@ $ java PasswordCracker -m BRUTE -h e7247759c1633c0f9f1485f3690294a9
 Password not found
 java PasswordCracker -m DICO  098f6bcd4621d373cade4e832627b4f6
 Usage incorrect 
+lien vers la vidéo : https://drive.google.com/file/d/1aD4s8anM7kKJZ_8RfM6GN74ox9-YoC7U/view?usp=drive_link
 ```
 ## 7. Difficultés rencontrées
 - **Explosion combinatoire de la force brute** : le nombre de tentatives
