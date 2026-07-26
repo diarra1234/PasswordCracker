@@ -1,0 +1,23 @@
+@startuml
+
+interface HashCracker {
+  +crack(hash: String): String
+}
+
+class DictionaryHashCracker {
+  +crack(hash: String): String
+}
+
+class BruteForceHashCracker {
+  +crack(hash: String): String
+}
+
+class HashCrackerFactory {
+  +create(method: String): HashCracker
+}
+
+HashCracker <|.. DictionaryHashCracker
+HashCracker <|.. BruteForceHashCracker
+HashCrackerFactory ..> HashCracker : crée
+
+@enduml

@@ -1,5 +1,3 @@
-# PasswordCracker
-"Mini-projet PasswordCracker - patron Simple Factory"
 ## 1. Introduction
 
 Ce projet, **PasswordCracker v1**, est développé dans le cadre d'un
@@ -182,7 +180,6 @@ fabrique centralisée (`HashCrackerFactory`). L'architecture obtenue est
 modulaire, sans duplication de code, et respecte les contraintes imposées
 par le sujet (aucune instanciation directe des classes concrètes en dehors
 de la fabrique).
-
 
 
 
